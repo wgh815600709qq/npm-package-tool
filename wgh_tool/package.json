@@ -1,0 +1,14 @@
+{
+  "name": "wgh_tool",
+  "version": "1.0.0",
+  "description": "a demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "wgh815600709qq",
+  "license": "ISC"
+}
