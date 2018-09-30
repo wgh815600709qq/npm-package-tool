@@ -27,8 +27,8 @@
 
 ### 格式类
 |函数名| 参数 | 参数说明 | 函数说明| 示例|
-| --------   | -----:   | :----: |:----: |
-|_formateTime | （time, formateStr） | time 时间对象， formateStr为格式化规则| 将时间格式化为指定格式表达| eg: $._formateTime(new Date(), 'yyyy-mm-dd hh:ii:ss 星期a')
+| --------   | -----:   | :----: |:----: |:----: |
+|_formateTime | （time, formateStr） | time 时间对象， formateStr为格式化规则| 将时间格式化为指定格式表达| eg: $._formateTime(new Date(), 'yyyy-mm-dd hh:ii:ss 星期a')|
 
 ##  一些扩展功能
 1、集成压缩
