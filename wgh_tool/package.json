@@ -2,13 +2,21 @@
   "name": "wgh_tool",
   "version": "1.0.1",
   "description": "a demo",
-  "main": "index.js",
+  "main": "dist/tool.js",
   "scripts": {
-    "test": "npm run test"
+    "test-all": "mocha unit-testing/module/*.js",
+    "test-task": "node unit-testing/task-test-script.js",
+    "build": "node build.js"
   },
   "keywords": [
     "tool"
   ],
   "author": "wgh815600709qq",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "shelljs": "^0.8.2",
+    "webpack": "^4.20.2"
+  }
 }

@@ -1,0 +1,12 @@
+{
+    "name": "wgh_tool",
+    "version": "1.0.1",
+    "description": "a demo",
+    "main": "tool.js",
+    "keywords": [
+      "tool"
+    ],
+    "author": "wgh815600709qq",
+    "license": "ISC"
+  }
+  

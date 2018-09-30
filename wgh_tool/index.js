@@ -4,25 +4,14 @@
       global.moduleName = factory()
 }(this, (function () {
   var toolMap = {
-
     _getVersion() {
       return 'v1.0.0'
     },
 
- 
-    /*
-     * 判断对象
-     */
     _isObject(obj) {
       return Object.prototype.toString.call(obj) === '[object Object]'
     },
 
-    /**
-       * [parseTime description]  时间格式化函数
-       * @param  {[type]} time    [时间对象]
-       * @param  {[type]} cFormat [格式]
-       * @return {[type]} timeStr [格式化后时间]
-       */
     _parseTime(time, cFormat) {
       if (arguments.length === 0) {
         return null
@@ -57,12 +46,7 @@
       })
       return timeStr
     },
-    /**
-       * [formatTime description] 时间展示函数
-       * @param  {[type]} time   [时间戳]
-       * @param  {[type]} option [参数]
-       * @return {[type]}        [格式化后时间]
-       */
+
     _formatTime(time, option) {
       const d = new Date(time)
       const now = Date.now()
@@ -82,21 +66,11 @@
         return d.getMonth() + 1 + '月' + d.getDate() + '日' + d.getHours() + '时' + d.getMinutes() + '分'
       }
     },
-    /** 操作类 **/
-    /*
-     *  深拷贝
-     */
+
     _deepCopy(obj) {
       return JSON.parse(JSON.stringify(obj))
     },
 
-    /**
-     * [throttle description] 函数节流
-     * @param  {[type]} method  [description] 要执行节流的函数
-     * @param  {[type]} time    [description] 节流的时间(单位毫秒)
-     * @param  {[type]} context [description] 执行域
-     * @return {[type]}         [description]
-     */
     _throttle(method, time, context) {
       clearTimeout(method.tId)
       method.tId = setTimeout(function () {
@@ -104,6 +78,11 @@
       }, time)
     },
 
+    _isMobile(str) {
+      return /^1[34578]\d{9}$/.test(str)
+    }
+
+    
   };
   return toolMap
 })))
