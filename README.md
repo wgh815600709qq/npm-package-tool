@@ -4,11 +4,19 @@
 
 ## 当前版本v1.0.1
 
+
+## 快速使用
+```
+    npm install wgh_tool
 ```
 
-    npm install wgh_tool
-    
+## 使用示例
 ```
+    const $ = require('wgh_tool')
+    $._isObject(1) // false
+```
+
+
 
 ##  一些扩展功能
 1、集成压缩
