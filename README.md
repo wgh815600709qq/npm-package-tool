@@ -11,24 +11,18 @@
 ```
 
 ##  一些扩展功能
-    集成压缩
+1、集成压缩
 ``` 
     npm run build
 ```
-    
-    集成全部函数单元测试、
-``` 
-    
-        npm run test-all
-        
+2、集成全部函数单元测试、
+```  
+        npm run test-all    
 ```
     
-    部分函数单元测试
+3、部分函数单元测试
     
  ```
-    
         1、将需要测试的函数名写入unit-testing/test-task.js数组内
-        
         2、npm run test-task
-        
 ```
