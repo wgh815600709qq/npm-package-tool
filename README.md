@@ -28,7 +28,7 @@
 ### 格式类
 |函数名| 参数 | 参数说明 | 函数说明| 示例|
 | --------   | -----:   | :----: |:----: |:----: |
-|_formatTime | （time, formatStr） | time 时间对象， formatStr为格式化规则| 将时间格式化为指定格式表达|$._formatTime(new Date(), '{y}-{m}-{d} {h}:{i}:{s} 星期{a}')|
+|_parseTime | （time, formatStr） | time 时间对象， formatStr为格式化规则| 将时间格式化为指定格式表达|$._parseTime(new Date(), '{y}-{m}-{d} {h}:{i}:{s} 星期{a}')|
 
 ### 基础类
 |函数名| 参数 | 参数说明 | 函数说明| 示例|
