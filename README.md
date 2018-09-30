@@ -21,14 +21,16 @@
 ### 判断类
 |函数名| 参数 | 参数说明 | 函数说明|示例|
 | --------   | -----:   | :----: |:----: |:----: |
-|_isObject | （param） | 任何参数 | 判断是否为对象|eg:$._isObject(1)|
-|_isMobile | （param） | 任何参数 | 判断是否为合法手机号码|eg:$._isMobile('13800138000')|
+|_isObject | （param） | 任何参数 | 判断是否为对象|$._isObject(1)|
+|_isMobile | （param） | 任何参数 | 判断是否为合法手机号码|$._isMobile('13800138000')|
 
 
 ### 格式类
 |函数名| 参数 | 参数说明 | 函数说明| 示例|
 | --------   | -----:   | :----: |:----: |:----: |
-|_formateTime | （time, formateStr） | time 时间对象， formateStr为格式化规则| 将时间格式化为指定格式表达| eg: $._formateTime(new Date(), 'yyyy-mm-dd hh:ii:ss 星期a')|
+|_formateTime | （time, formateStr） | time 时间对象， formateStr为格式化规则| 将时间格式化为指定格式表达|$._formateTime(new Date(), 'yyyy-mm-dd hh:ii:ss 星期a')|
+
+
 
 ##  一些扩展功能
 1、集成压缩
