@@ -1,8 +1,8 @@
 {
   "name": "wgh_tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a demo",
-  "main": "dist/tool.js",
+  "main": "wgh_tool/tool.js",
   "scripts": {
     "test-all": "mocha unit-testing/module/*.js",
     "test-task": "node unit-testing/task-test-script.js",

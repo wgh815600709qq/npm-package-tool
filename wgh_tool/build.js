@@ -19,6 +19,7 @@ try {
         if (err) {
             throw err;
         }
+        console.log('构建成功')
         process.stdout.write(stats.toString({
             colors: true,
             modules: false,
